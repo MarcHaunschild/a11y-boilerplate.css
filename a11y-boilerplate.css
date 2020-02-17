@@ -1,0 +1,17 @@
+/* Last updated: 12.02.2020 by mhis.de - web designed for YOU! */
+
+/* Get rid of hyperlink supressing Js techniques for smooth scrolling
+   Use links and anchors instead and combine it with this CSS
+   found on https://michaelspellacy.com/pushing-buttons/#hyperlink-suppression
+   Browser-Support: https://caniuse.com/#search=scroll-behavior */
+   
+   
+html {
+scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion: reduce) {
+
+html {
+  scroll-behavior: auto;
+  }
+}
